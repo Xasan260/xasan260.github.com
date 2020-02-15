@@ -4,14 +4,14 @@
 .row img{
   padding: 30px 0;
 }
-h2{
+.h{
   font-size: 22px;
   font-family: "Raleway";
   text-transform: uppercase;
   text-decoration: none;
   color: #2d3033;
 }
-p{
+.p{
   font-size: 13px;
   color: #e84545;
   font-family: "Raleway";
