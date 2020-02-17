@@ -1,18 +1,36 @@
 *{
   box-sizing: border-box;
 }
+
+h5 {
+    font-size: 14px;
+    color:
+    #2d3033;
+    text-transform: uppercase;
+    font-weight: 700;
+}
 .h{
+  padding-top: 30px;
   font-size: 22px;
   font-family: "Raleway";
   text-transform: uppercase;
   text-decoration: none;
   color: #2d3033;
 }
+p{
+  font-size: 14px;
+  line-height: 21px;
+  color: #6c7279;
+  font-family: "Raleway";
+
+}
 .p{
+  padding-top: 14px;
   font-size: 13px;
   color: #e84545;
   font-family: "Raleway";
   text-transform: uppercase;
+  line-height: 21px;
 
 }
 .text{
@@ -21,13 +39,30 @@
   color: #6c7279;
   font-family: "Raleway";
 }
-.ref{
-
+.ref {
   margin: 30px 3px 0 0;
-
 }
 .ref a{
   padding: 1rem;
   color: #6c7279;
   border: 1px solid #6c7279;
+}
+.navbar-toggler:focus {
+  outline: none;
+}
+.navbar-brand {
+  color: red;
+}
+.block{
+  margin-bottom: 100px;
+  display: block;
+  width: 300px;
+  height: 300px;
+  position: relative;
+  text-align: center;
+}
+.block a>i{
+  padding-top: 100px;
+  margin-bottom: 30px;
+  color: #e74545;
 }
