@@ -1,6 +1,29 @@
 *{
   box-sizing: border-box;
 }
+.background{
+  background-image: url(banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 750px;
+}
+.header{
+  display: flex;
+  border-bottom: 0;
+  padding: 25px 0;
+  width: 100%;
+  max-width: 1170px;
+  position: fixed;
+  margin-left:400px;
+  background-image: url(banner.jpg);
+  align-content: center;
+
+}
+.logo{
+  padding-left: 100px;
+  position: relative;
+   align-items: center;
+}
 
 h5 {
     font-size: 14px;
